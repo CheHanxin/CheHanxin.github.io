@@ -6,11 +6,11 @@
   <meta name="renderer" content="webkit">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" >
   <link rel="dns-prefetch" href="http://yoursite.com">
-  <title>CheHanxin&#39;s Phisical Blog</title>
+  <title>Tag: Oprations in Matrix by numpy | CheHanxin&#39;s Phisical Blog</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <meta property="og:type" content="website">
 <meta property="og:title" content="CheHanxin&#39;s Phisical Blog">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta property="og:url" content="http://yoursite.com/tags/Oprations-in-Matrix-by-numpy/index.html">
 <meta property="og:site_name" content="CheHanxin&#39;s Phisical Blog">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:author" content="CheHanxin">
@@ -144,35 +144,34 @@
           <div id="js-content" class="content-ll">
             
   
-    <article id="post-Matrix" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  
     
-      <header class="article-header">
-        
+    
+      
+      
+      <section class="archives-wrap">
+        <div class="archive-year-wrap">
+          <a href="/archives/2020" class="archive-year">2020</a>
+        </div>
+        <div class="archives">
+    
+    <article class="archive-article archive-type-post">
+  <div class="archive-article-inner">
+    <header class="archive-article-header">
+      	<div class="article-meta">
+	      	<a href="/2020/03/29/Matrix/" class="archive-article-date">
+  	<time datetime="2020-03-29T07:08:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-29</time>
+</a>
+        </div>
+    	 
   
     <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/29/Matrix/">Matrix</a>
+      <a class="archive-article-title" href="/2020/03/29/Matrix/">Matrix</a>
     </h1>
   
 
-        
-        <a href="/2020/03/29/Matrix/" class="archive-article-date">
-  	<time datetime="2020-03-29T07:08:47.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-29</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">from</span> numpy <span class="keyword">import</span> *</span><br><span class="line"><span class="keyword">import</span> numpy.linalg <span class="keyword">as</span> npl</span><br><span class="line"></span><br><span class="line"></span><br><span class="line">print(<span class="number">1</span>)</span><br><span class="line"><span class="string">'''生成零矩阵'''</span></span><br><span class="line">data1 = mat(zeros((<span class="number">3</span>, <span class="number">3</span>)))</span><br><span class="line">print(data1)</span><br><span class="line">print(<span class="number">2</span>)</span><br><span class="line"><span class="string">'''生成一矩阵（浮点型）'''</span></span><br><span class="line">data2 = mat(ones((<span class="number">2</span>, <span class="number">4</span>)))</span><br><span class="line">print(data2)</span><br><span class="line">print(<span class="number">3</span>)</span><br><span class="line"><span class="string">'''生成随机矩阵'''</span></span><br><span class="line">data3 = mat(random.rand(<span class="number">2</span>, <span class="number">2</span>))</span><br><span class="line">print(data3)</span><br><span class="line">print(<span class="number">4</span>)</span><br><span class="line"><span class="string">'''生成随机整数矩阵'''</span></span><br><span class="line">data4 = mat(random.randint(<span class="number">1</span>, <span class="number">10</span>, size=(<span class="number">3</span>, <span class="number">3</span>)))</span><br><span class="line">print(data4)</span><br><span class="line">print(<span class="number">5</span>)</span><br><span class="line"><span class="string">'''产生对角矩阵'''</span></span><br><span class="line">data5 = mat(eye(<span class="number">2</span>, <span class="number">2</span>, dtype=int))</span><br><span class="line">print(data5)</span><br><span class="line">print(<span class="number">6</span>)</span><br><span class="line">a1 = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>]</span><br><span class="line">data6 = mat(diag(a1))</span><br><span class="line">print(data6)</span><br><span class="line">print(<span class="number">7</span>)</span><br><span class="line"><span class="string">'''相乘'''</span></span><br><span class="line">print(data4*data6)</span><br><span class="line">print(<span class="number">8</span>)</span><br><span class="line"><span class="string">'''求逆和转置'''</span></span><br><span class="line">print(data6.I)</span><br><span class="line">print((data4*data6).T)</span><br><span class="line">print(<span class="number">9</span>)</span><br><span class="line"><span class="string">'''行和，列和'''</span></span><br><span class="line">data7 = mat([[<span class="number">1</span>, <span class="number">2</span>], [<span class="number">3</span>, <span class="number">4</span>], [<span class="number">5</span>, <span class="number">6</span>]])</span><br><span class="line">print(data7.sum(axis=<span class="number">0</span>))</span><br><span class="line">print(data7.sum(axis=<span class="number">1</span>))</span><br><span class="line">print(<span class="number">10</span>)</span><br><span class="line"><span class="string">'''求矩阵的行列式'''</span></span><br><span class="line">print(linalg.det(data4))</span><br><span class="line">print(<span class="number">11</span>)</span><br><span class="line"><span class="string">'''合并按行，按列'''</span></span><br><span class="line">data8 = vstack((data1, data4))</span><br><span class="line">print(data8)</span><br><span class="line">data9 = hstack((data1, data4))</span><br><span class="line">print(data9)</span><br><span class="line">print(<span class="number">12</span>)</span><br><span class="line"><span class="string">'''列表、数组、矩阵之间的转换'''</span></span><br><span class="line">a10 = [[<span class="number">1</span>, <span class="number">2</span>], [<span class="number">2</span>, <span class="number">3</span>], [<span class="number">3</span>, <span class="number">4</span>]]</span><br><span class="line">b10 = array(a1)</span><br><span class="line">data10 = mat(b10)</span><br><span class="line">c10 = data10.tolist()</span><br><span class="line">print(type(c10))</span><br><span class="line">print(<span class="number">13</span>)</span><br><span class="line"><span class="string">'''求解线性方程组'''</span></span><br><span class="line">data11 = [[<span class="number">3</span>, <span class="number">2</span>, <span class="number">1</span>],</span><br><span class="line">          [<span class="number">5</span>, <span class="number">5</span>, <span class="number">5</span>],</span><br><span class="line">          [<span class="number">1</span>, <span class="number">4</span>, <span class="number">6</span>]]</span><br><span class="line">data12 = [[<span class="number">5</span>], [<span class="number">5</span>], [<span class="number">-3</span>]]</span><br><span class="line">data13 = npl.solve(data11, data12)</span><br><span class="line">print(data13)</span><br><span class="line">print(<span class="number">14</span>)</span><br><span class="line"><span class="string">'''取子矩阵(要把对象转化为矩阵)'''</span></span><br><span class="line">data14 = mat(data11)[<span class="number">1</span>:, <span class="number">1</span>:]</span><br><span class="line">print(data14)</span><br><span class="line"><span class="string">'''求特征值和特征向量'''</span></span><br><span class="line">A = array([[<span class="number">3</span>,<span class="number">-1</span>],[<span class="number">-1</span>,<span class="number">3</span>]])</span><br><span class="line">print(<span class="string">'打印A：\n&#123;&#125;'</span>.format(A))</span><br><span class="line">a, b = linalg.eig(A)</span><br><span class="line">print(<span class="string">'打印特征值a：\n&#123;&#125;'</span>.format(a))</span><br><span class="line">print(<span class="string">'打印特征向量b：\n&#123;&#125;'</span>.format(b))</span><br></pre></td></tr></table></figure>
-
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
+        <div class="article-info info-on-right">
+          
 	<div class="article-tag tagcloud">
 		<i class="icon-price-tags icon"></i>
 		<ul class="article-tag-list">
@@ -184,188 +183,19 @@
 		</ul>
 	</div>
 
-      
+          
 
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/03/29/Matrix/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+    </header>
   </div>
 </article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
   
-    <article id="post-latex3" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
+  
+    </div></section>
+  
+
     
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/20/latex3/">latex3</a>
-    </h1>
-  
-
-        
-        <a href="/2020/03/20/latex3/" class="archive-article-date">
-  	<time datetime="2020-03-20T12:59:04.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h1 id="很好"><a href="#很好" class="headerlink" title="很好"></a>很好</h1><h2 id="我吐了"><a href="#我吐了" class="headerlink" title="我吐了"></a>我吐了</h2><h3 id="炸裂"><a href="#炸裂" class="headerlink" title="炸裂"></a>炸裂</h3><h4 id="你是神仙"><a href="#你是神仙" class="headerlink" title="你是神仙"></a>你是神仙</h4><h5 id="damn"><a href="#damn" class="headerlink" title="damn"></a>damn</h5><h6 id="shit"><a href="#shit" class="headerlink" title="# shit"></a># shit</h6>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color3">神仙</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/03/20/latex3/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-    <article id="post-latex-two" class="article article-type-post  article-index" itemscope itemprop="blogPost">
-  <div class="article-inner">
-    
-      <header class="article-header">
-        
-  
-    <h1 itemprop="name">
-      <a class="article-title" href="/2020/03/20/latex-two/">latex two</a>
-    </h1>
-  
-
-        
-        <a href="/2020/03/20/latex-two/" class="archive-article-date">
-  	<time datetime="2020-03-20T12:39:31.000Z" itemprop="datePublished"><i class="icon-calendar icon"></i>2020-03-20</time>
-</a>
-        
-      </header>
-    
-    <div class="article-entry" itemprop="articleBody">
-      
-        <h2 id="First"><a href="#First" class="headerlink" title="First"></a>First</h2><h3 id="1-1"><a href="#1-1" class="headerlink" title="1.1"></a>1.1</h3><p>$\int_0^{1}{x^2dx}$<br>$\frac{\hbar}{2}$</p>
-<h3 id="1-2"><a href="#1-2" class="headerlink" title="1.2"></a>1.2</h3>
-      
-
-      
-    </div>
-    <div class="article-info article-info-index">
-      
-      
-	<div class="article-tag tagcloud">
-		<i class="icon-price-tags icon"></i>
-		<ul class="article-tag-list">
-			 
-        		<li class="article-tag-list-item">
-        			<a href="javascript:void(0)" class="js-tag article-tag-list-link color1">LaTeX</a>
-        		</li>
-      		
-		</ul>
-	</div>
-
-      
-
-      
-        <p class="article-more-link">
-          <a class="article-more-a" href="/2020/03/20/latex-two/">展开全文 >></a>
-        </p>
-      
-
-      
-      <div class="clearfix"></div>
-    </div>
-  </div>
-</article>
-
-<aside class="wrap-side-operation">
-    <div class="mod-side-operation">
-        
-        <div class="jump-container" id="js-jump-container" style="display:none;">
-            <a href="javascript:void(0)" class="mod-side-operation__jump-to-top">
-                <i class="icon-font icon-back"></i>
-            </a>
-            <div id="js-jump-plan-container" class="jump-plan-container" style="top: -11px;">
-                <i class="icon-font icon-plane jump-plane"></i>
-            </div>
-        </div>
-        
-        
-    </div>
-</aside>
-
-
-
-
-  
-  
 
 
           </div>
@@ -387,10 +217,10 @@
     <script>
 	var yiliaConfig = {
 		mathjax: true,
-		isHome: true,
+		isHome: false,
 		isPost: false,
 		isArchive: false,
-		isTag: false,
+		isTag: true,
 		isCategory: false,
 		open_in_new: false,
 		toc_hide_index: true,
